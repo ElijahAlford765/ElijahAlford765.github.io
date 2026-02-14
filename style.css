@@ -23,22 +23,22 @@ nav ul li a {
   font-weight: 600;
 }
 
+.hero, .about, .projects, .contact {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
 .hero {
   text-align: center;
-  padding: 100px 20px;
+  padding: 80px 20px;
   background: linear-gradient(135deg,#6c5ce7,#a29bfe);
   color: white;
+  border-radius: 12px;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
+.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.hero p { font-size: 1.2rem; margin-bottom: 20px; }
 
 .btn {
   display: inline-block;
@@ -52,105 +52,27 @@ nav ul li a {
   transition: 0.3s;
 }
 
-.btn:hover {
-  background: #f0f0f0;
-}
+.btn:hover { background: #f0f0f0; }
 
-footer {
-  text-align: center;
-  padding: 20px 0;
-  background: #fff;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
-}
-.contact {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.contact h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: #6c5ce7;
-}
-
-.contact p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  font-size: 1.1rem;
-}
-
-.contact-info li {
-  margin: 10px 0;
-}
-
-.contact-info a {
-  color: #6c5ce7;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
-}
-/* Section styling */
-.about, .projects {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.about h1, .projects h1 {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
-}
-
-.about p, .projects p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-.skills {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 20px;
-}
-
-.skills li {
-  background: #6c5ce7;
-  color: #fff;
-  padding: 8px 15px;
-  border-radius: 5px;
+.profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
 }
 
 .project-card {
   background: #fff;
-  margin: 30px auto;
+  border-radius: 12px;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  max-width: 800px;
-  text-align: left;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
-.project-card h2 {
-  margin-top: 0;
-  color: #6c5ce7;
-}
-
-.project-card ul {
-  padding-left: 20px;
-}
-.project-card ul li {
-  margin-bottom: 8px;
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  color: #777;
+  margin-top: 50px;
 }
